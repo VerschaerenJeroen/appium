@@ -28,7 +28,7 @@ And apply these settings.
 
 ## Edit Environment Variables
 
-Open `Windows Search` and search for `Edit environment variables for your account`. In the menu click on bottom button called `Environment Variables` and this will open a pop-up. Here make sure under `System variables` there is a variable called `JAVA_HOME` and `ANDROID_HOME`, if not then we will have to add a new variable with the names previously mentioned. As for their value the `JAVA_HOME` should have the directory path to your local java `JDK Folder` and for `ANDROID_HOME` to your local android `SDK Folder`
+Open `Windows Search` and search for `Edit the system environment variables`. In the menu click on bottom button called `Environment Variables` and this will open a pop-up. Here make sure under `System variables` there is a variable called `JAVA_HOME` and `ANDROID_HOME`, if not then we will have to add a new variable with the names previously mentioned. As for their value the `JAVA_HOME` should have the directory path to your local java `JDK Folder` and for `ANDROID_HOME` to your local android `SDK Folder`
 
 Next up we will have to add a couple more values to our `Path` variable. These are the following for new value:
 -   ../Sdk/tools/bin
