@@ -15,7 +15,7 @@ A simple sample project on how appium tests works on a physical android devices,
 
 ## Getting Started with Android Studio
 
-Firstly we open `Android Studio` and will configure the `SDK Manager` which you can find in `options`. This will open a menu that is called `Android SDK`, here you will choose an android SDK. I have chosen for `Android 12.0` as my physical android device runs Android 12. Then open the menu called `SDK tools`. Here we will first check `Hide obsolete packages` at the bottom right.
+Firstly we open `Android Studio` and will configure the `SDK Manager` which you can find in `More Actions` or `Options`. This will open a menu that is called `Android SDK`, here you will choose an android SDK. I have chosen for `Android 12.0` as my physical android device runs Android 12. Then open the menu called `SDK tools`. Here we will first check `Hide obsolete packages` at the bottom right.
 After this we will check the following list:
 
 -   Android SDK Build-tools
