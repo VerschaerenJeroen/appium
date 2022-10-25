@@ -13,6 +13,18 @@ A simple sample project on how appium tests works on a physical android devices,
 -   [Appium Inspector](https://github.com/appium/appium-inspector/releases)
 -   [Java 8 JRE](https://www.java.com/nl/download/ie_manual.jsp)
 
+## Get your phone ready
+
+On your phone activate Developer options:
+-   Go to: settings > about phone > software information.
+-   Click 7 times on Build number
+Activate USB debugging:
+-   Go back to settings menu and look for Developer options
+-   Get into Developer option and activate USB debugging
+-   Make sure that USB configuration is set as PTP
+
+Now your phone is ready to connect with your PC.
+
 ## Getting Started with Android Studio
 
 Firstly we open `Android Studio` and will configure the `SDK Manager` which you can find in `More Actions` or `Options`. This will open a menu that is called `Android SDK`, here you will choose an android SDK. I have chosen for `Android 12.0` as my physical android device runs Android 12. Then open the menu called `SDK tools`. Here we will first check `Hide obsolete packages` at the bottom right.
