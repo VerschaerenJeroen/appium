@@ -55,7 +55,7 @@ Save and exit. Now you are ready to get started with your first appium project.
 
 before we start with appium cli, check if you have `Nodejs` installed by opening a CMD terminal and type `node -v`. If this return a version congratz you installed node correctly. If not I would suggest you to download `Nodejs` with the link provided in `Prerequisites`. After this we will run `npm i -g appium` to install appium globally. When you now type `appium` in you terminal an appium server will run. To exit out of this type `ctrl + c`.
 
-Next we will install `appium-doctor` to check if everything is configured correctly. We do this with following command in cmd terminal `npm i -g appium-doctor`. After the installation we will check for `Android` if we configured correctly by running in cmd terminal following command `appium-doctor --android`. If everything is checked green under necessary dependencies then we are ready to get started with appium server.
+Next we will install `appium-doctor` to check if everything is configured correctly. We do this with following command in cmd terminal `npm i -g appium-doctor`. After the installation we will check for `Android` if we configured correctly by running in cmd terminal following command `appium-doctor --android`. If everything is checked green under necessary dependencies then we are ready to get started with appium server. If not, check that you have tools folder under sdk folder, if not move the tools folder from Sdk/cmdline-tools to Sdk/ .
 
 ## Setup Appium for appium inspector
 
