@@ -13,6 +13,19 @@ A simple sample project on how appium tests works on a physical android devices,
 -   [Appium Inspector](https://github.com/appium/appium-inspector/releases)
 -   [Java 8 JRE](https://www.java.com/nl/download/ie_manual.jsp)
 
+## Get your phone ready
+
+On your phone activate Developer options:
+-   Go to: settings > about phone > software information.
+-   Click 7 times on Build number
+Activate USB debugging:
+-   Go back to settings menu and look for Developer options
+-   Get into Developer option and activate USB debugging
+-   Make sure that USB configuration is set as PTP
+
+Now your phone is ready to connect with your PC.  
+To be sure, you can use Vysor to check it.
+
 ## Getting Started with Android Studio
 
 Firstly we open `Android Studio` and will configure the `SDK Manager` which you can find in `More Actions` or `Options`. This will open a menu that is called `Android SDK`, here you will choose an android SDK. I have chosen for `Android 12.0` as my physical android device runs Android 12. Then open the menu called `SDK tools`. Here we will first check `Hide obsolete packages` at the bottom right.
@@ -42,7 +55,7 @@ Save and exit. Now you are ready to get started with your first appium project.
 
 before we start with appium cli, check if you have `Nodejs` installed by opening a CMD terminal and type `node -v`. If this return a version congratz you installed node correctly. If not I would suggest you to download `Nodejs` with the link provided in `Prerequisites`. After this we will run `npm i -g appium` to install appium globally. When you now type `appium` in you terminal an appium server will run. To exit out of this type `ctrl + c`.
 
-Next we will install `appium-doctor` to check if everything is configured correctly. We do this with following command in cmd terminal `npm i -g appium-doctor`. After the installation we will check for `Android` if we configured correctly by running in cmd terminal following command `appium-doctor --android`. If everything is checked green under necessary dependencies then we are ready to get started with appium server.
+Next we will install `appium-doctor` to check if everything is configured correctly. We do this with following command in cmd terminal `npm i -g appium-doctor`. After the installation we will check for `Android` if we configured correctly by running in cmd terminal following command `appium-doctor --android`. If everything is checked green under necessary dependencies then we are ready to get started with appium server. If not, check that you have tools folder under sdk folder, if not move the tools folder from Sdk/cmdline-tools to Sdk/ .
 
 ## Setup Appium for appium inspector
 
