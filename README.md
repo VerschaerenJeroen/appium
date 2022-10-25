@@ -23,7 +23,7 @@ Activate USB debugging:
 -   Get into Developer option and activate USB debugging
 -   Make sure that USB configuration is set as PTP
 
-Now your phone is ready to connect with your PC.
+Now your phone is ready to connect with your PC.  
 To be sure, you can use Vysor to check it.
 
 ## Getting Started with Android Studio
